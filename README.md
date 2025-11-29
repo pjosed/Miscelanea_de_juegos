@@ -132,6 +132,10 @@ Otras funciones (tan, sec, etc.) derivadas de estas.
 
 Potencias y factoriales hechos a mano con ciclos.
 
+▶️ ¿Como ejecutar?
+1. Tener Java instalado en el PC.
+2. Descargar el ejecutable y ejecutar el programa!
+
 📝 Créditos
 
 👨‍🎓 Estudiante: Jose David Peña Campo
