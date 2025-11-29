@@ -54,6 +54,7 @@ Versión reducida de Bingo en un tablero 3×3.
 ---
 
 ## 🔢 2. Procesos Matemáticos
+![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/ProcesosMatMenu.png)
 
 ### 🧹 2.1. Eliminar un dígito
 
