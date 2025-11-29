@@ -1,30 +1,19 @@
-🕹️ 1. Miscelánea de Juegos
-
-
-
+## 🕹️ Miscelánea de Juegos
 ![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/juegosMenu.png)
 
-
-
-🎯 1.1. Ruleta
-
+### 🎯 1.1. Ruleta
 Simulación de una ruleta con 24 casillas (pares = blancas, impares = negras).
 
-Características:
-
-Un jugador lanza dos esferas (blanca y negra).
-
-Se realizan N jugadas.
-
-Se evalúa:
-
-Color correcto de cada esfera.
-
-Sumatoria de casillas.
-
-Se determina cuál de las 3 condiciones otorga más ganancias.
+**Características:**
+- Un jugador lanza dos esferas (blanca y negra).
+- Se realizan N jugadas.
+- Se evalúa:
+  - Color correcto de cada esfera.
+  - Sumatoria de casillas.
+- Se determina cuál de las 3 condiciones otorga más ganancias.
 
 Incluye:
+
 
 ✔️ Generación aleatoria
 
