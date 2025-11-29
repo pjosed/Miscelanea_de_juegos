@@ -10,6 +10,7 @@
 ---
 
 ## ❌⭕ 1.2. Triqui (Tic-Tac-Toe)
+![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/TrickyJuego.png)
 
 Implementación completa del clásico triqui usando 9 posiciones.
 
