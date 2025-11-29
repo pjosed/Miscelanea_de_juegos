@@ -1,6 +1,6 @@
 # MENU PRINCIPAL
-El programa comienza pidiendote elegir que quieres hacer
-![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/juegosMenu.png)
+El programa comienza pidiendote elegir entre las 2 opciones disponibles o cerrar el programa.
+![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/MENU.png)
 
 ## 🕹️ 1. Miscelánea de Juegos
 ![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/juegosMenu.png)
