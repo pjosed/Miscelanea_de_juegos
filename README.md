@@ -1,96 +1,139 @@
 🕹️ 1. Miscelánea de Juegos
-1.1. Ruleta
+🎯 1.1. Ruleta
 
-Simulación de una ruleta con 24 casillas:
+Simulación de una ruleta con 24 casillas (pares = blancas, impares = negras).
 
-Pares → blancas
+Características:
 
-Impares → negras
+Un jugador lanza dos esferas (blanca y negra).
 
-Un jugador lanza dos esferas (una blanca y una negra) durante N jugadas.
-Dependiendo de la combinación de colores y la sumatoria de las casillas, se calcula por cuál de las opciones el jugador obtendría mayores ganancias.
+Se realizan N jugadas.
+
+Se evalúa:
+
+Color correcto de cada esfera.
+
+Sumatoria de casillas.
+
+Se determina cuál de las 3 condiciones otorga más ganancias.
 
 Incluye:
 
-Generación de valores aleatorios
+✔️ Generación aleatoria
 
-Conteo de victorias por cada una de las 3 condiciones
+✔️ Validación de condiciones
 
-Determinación del mejor resultado final
+✔️ Conteo de resultados
 
-1.2. Triqui (Tic-Tac-Toe)
+✔️ Selección automática de la mejor opción
 
-Implementación del clásico triqui con:
+❌⭕ 1.2. Triqui (Tic-Tac-Toe)
 
-9 posiciones inicializadas en 0
+Implementación completa del clásico triqui usando 9 posiciones.
 
-Turnos alternados:
+Reglas implementadas:
 
-Jugador O → valor 1
+Tablero representado por 9 variables inicializadas en 0.
 
-Jugador X → valor 2
+Turnos:
 
-Validación para evitar jugadas sobre casillas ocupadas
+O → 1
 
-Detección de ganador en filas, columnas y diagonales
+X → 2
 
-Empate si se completan las 9 jugadas sin ganador
+No se puede sobrescribir una casilla ocupada.
 
-El tablero se actualiza y muestra después de cada movimiento.
+Detección de ganador por:
 
-1.3. Bingo
+Filas
 
-Juego de bingo reducido a un tablero 3×3 con 9 variables:
+Columnas
 
-Se llena con números generados aleatoriamente
+Diagonales
 
-El usuario va generando “jugadas” una por una
+Empate si no hay ganador en 9 jugadas.
 
-No se pueden repetir números seleccionados
+El tablero se muestra después de cada turno.
 
-Se gana si aparecen tres valores alineados horizontal o verticalmente
+🔢🎰 1.3. Bingo
 
-Máximo 7 jugadas — si no hay BINGO, se anula
+Versión reducida de Bingo en un tablero 3×3.
 
-El tablero se actualiza tras cada selección válida.
+Mecánica:
+
+Se llenan las 9 casillas con números aleatorios.
+
+El usuario genera jugadas una por una.
+
+No se repiten números ya seleccionados.
+
+Se gana si hay tres casillas alineadas (horizontal o vertical).
+
+Máximo 7 jugadas:
+
+Si no hay BINGO → juego anulado.
+
+Incluye:
+
+✔️ Generación controlada
+
+✔️ Validación de repetidos
+
+✔️ Actualización del tablero
+
+✔️ Detección de victoria
 
 🔢 2. Procesos Matemáticos
-2.1. Eliminar un dígito
+🧹 2.1. Eliminar un dígito
 
-El usuario ingresa un número mayor a 1000 y escoge un dígito para eliminar.
-Ejemplo:
+El usuario ingresa un número > 1000 y elimina un dígito específico.
+
+Ejemplos:
+
 12345 eliminar 2 → 1345
+
 314111 eliminar 1 → 34
 
-Incluye manejo por ciclos y reconstrucción manual del número.
+Implementación:
 
-2.2. Cálculo de PI y E
+Reconstrucción numérica usando ciclos.
 
-Aproximación mediante series:
+Sin conversiones mágicas.
 
-PI usando:
+🧮 2.2. Cálculo de PI y E
 
-π/4 = 1 – 1/3 + 1/5 – 1/7 + ...
+Aproximación mediante series matemáticas.
 
-Euler (e^x) usando:
+PI (Leibniz):
 
-1 + x + x²/2! + x³/3! + …
+π/4 = 1 - 1/3 + 1/5 - 1/7 + ...
 
-El usuario define cuántos términos usar en la sumatoria.
 
-2.3. Funciones trigonométricas (Series de Taylor)
+Euler:
 
-Implementación de:
+e^x = 1 + x + x²/2! + x³/3! + ...
 
-seno(x)
-coseno(x)
-Con base en sus series de Taylor.
-El programa también permite calcular funciones derivadas como tangente, secante, etc.
 
-Las potencias y factoriales se implementan manualmente con ciclos, sin librerías externas
+El usuario define cuántos términos sumar.
 
-📚 Créditos
+🔭 2.3. Funciones trigonométricas (Series de Taylor)
 
-Estudiante: Jose David Peña Campo
-Curso: Algoritmia y Programación I – 4362
-Profesora: Rocío Ramos Rodríguez
+Cálculo manual de seno(x) y coseno(x), más funciones derivadas.
+
+Incluye:
+
+Serie de Taylor para:
+
+✔️ sin(x)
+
+✔️ cos(x)
+
+Otras funciones (tan, sec, etc.) derivadas de estas.
+
+Potencias y factoriales hechos a mano con ciclos.
+
+📝 Créditos
+
+👨‍🎓 Estudiante: Jose David Peña Campo
+📘 Curso: Algoritmia y Programación I – 4362
+👩‍🏫 Profesora: Rocío Ramos Rodríguez
