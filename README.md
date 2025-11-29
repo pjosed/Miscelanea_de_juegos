@@ -1,5 +1,11 @@
 🕹️ 1. Miscelánea de Juegos
+
+
+
 ![Menú Principal](https://raw.githubusercontent.com/pjosed/Miscelanea_de_juegos/main/Imagenes/juegosMenu.png)
+
+
+
 🎯 1.1. Ruleta
 
 Simulación de una ruleta con 24 casillas (pares = blancas, impares = negras).
